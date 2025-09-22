@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "React+Vite Extension Template",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create extensions with React+Vite with this template. Click on the homepage URL to learn more.",
   "homepage_url": "https://github.com/alialmasi/react-vite-extension-template",
   "author": "Ali Almasi",
