@@ -1,0 +1,28 @@
+.titleBox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  line-height: 0;
+}
+
+.central {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  gap: 10px;
+}
+
+.run {
+  width: 100%;
+  border-color: gray;
+}
+
+.list {
+  display: flex;
+  gap: 10px;
+  padding: 0;
+  list-style: none outside;
+  font-size: 18px;
+}
