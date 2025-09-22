@@ -1,6 +1,6 @@
 # React+Vite Browser Extension Template
 
-This repository contains the template used for developing a browser extension with React+Vite. You can use this template to develop extensions for both Chrome-based and Firefox-based browsers. this template also uses two separate manifests (manifest V2 and V3) for each Chrome and Firefox.
+This repository contains the template used for developing a browser extension with React+Vite. You can use this template to develop extensions for both Chrome-based and Firefox-based browsers. This template also uses two separate manifests (manifest V2 and V3) for each Chrome and Firefox.
 
 ## Building
 
@@ -16,6 +16,7 @@ You can see the [latest release of this repo](https://github.com/AliAlmasi/react
 
 As you may already know, steps to build locally are:
 
+0. Make sure to have `node` and `npm` installed. ([`pnpm` is recommended to use](https://www.freecodecamp.org/news/how-to-use-pnpm/))
 1. Make sure to have the dependencies installed: `pnpm install`
 2. Trigger the build precedure: `pnpm build`
 3. Done. Check `/build` path for `/build/chrome` and `/build/firefox` sub-folders.
