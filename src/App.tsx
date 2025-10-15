@@ -20,7 +20,7 @@ export default function App(): React.ReactNode {
           width={48}
           style={{ borderRadius: 8 }}
         />
-        <h1>Vite+React</h1>
+        <h1>React+Vite</h1>
       </div>
       <div className={style.central}>
         <p>Hello, world!</p>

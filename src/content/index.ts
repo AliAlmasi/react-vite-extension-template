@@ -7,7 +7,7 @@ chrome.runtime.onMessage.addListener(async (msg, _, sendResponse) => {
         sendResponse({
           success: true,
           data: {
-            message: "main function executed",
+            message: "main function executed. Hello there!",
           },
         })
       )

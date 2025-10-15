@@ -26,7 +26,7 @@ chrome.runtime.onMessage.addListener((msg, _, sendResponse) => {
       sendResponse({
         success: false,
         data: {
-          error: "Not allowed to run in this page",
+          error: "Not allowed to run in this page. Try `alialmasi.ir`.",
         },
       });
       return;
